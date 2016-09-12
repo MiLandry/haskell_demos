@@ -9,3 +9,5 @@ eg:
 
 Then see the result or demo by invoking the variable for it ie "h" plus its number
 number eg >h01>"hello, world
+
+or someof them just type d for demo after loading it
