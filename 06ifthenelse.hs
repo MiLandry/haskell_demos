@@ -4,4 +4,4 @@ posOrNeg x =
     else "positive"
 
 
-h03 = posOrNeg 6 
+d = posOrNeg 6 

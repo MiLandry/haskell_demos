@@ -4,4 +4,4 @@ isOdd n
   | otherwise = True
 
 
-h04 = isOdd 3
+d = isOdd 3

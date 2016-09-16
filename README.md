@@ -1,13 +1,17 @@
 # haskell_demo_helloworld
 Demonstrating the basics of haskell
 
-Directions:  load Haskell file in the GHCI.
+##Directions:
+Fire up the Glorious Haskell Compiler Interpreter
 
-eg: 
+`ghci`
 
-:l 01helloHask.hs (assuming you in root of project)
+Then load a file into ghci that you want to demo eg:
 
-Then see the result or demo by invoking the variable for it ie "h" plus its number
-number eg >h01>"hello, world
+`:l 01helloHask.hs`
 
-or someof them just type d for demo after loading it
+Once the file is loaded, it should have a variable called "d" which is supposed to demonstrate the module that was loaded, jo just type "d" after loading a module.
+
+`d`
+
+`>> hello, world!`
