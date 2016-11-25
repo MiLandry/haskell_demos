@@ -15,3 +15,8 @@ Once the file is loaded, it should have a variable called "d" which is supposed 
 `d`
 
 `>> hello, world!`
+
+
+
+##Installing haskell
+If you do not have haskell (ghci) installed, then go get it: 
