@@ -20,6 +20,14 @@ d = [2 * x| x <- [1..10]] --[2,4..,20]
 
 
 
--- and finally this is a list comp with a predicate (ie, a filter)
+-- and finally this is a list comp with a predicate (ie, a filter). note the comma seperation
 
 e = [x*2 | x <- [1..10], x*2 >= 12]  --[12,14,16,18,20]
+
+
+-- a LC with a fancy output function
+boomBangs xs = [ if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x] 
+
+--you can have multiple predicates
+
+[ x | x <- [10..20], x /= 13, x /= 15, x /= 19]  
