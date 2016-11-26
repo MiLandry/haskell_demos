@@ -8,3 +8,10 @@ boomBangs xs = [ if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x]
 
 
 d = boomBangs [7..13]
+
+
+
+-- the underscore is magic, it means we don't care about the actual value pulled from the set.  below is a reimplementation of length
+
+length' xs = sum [1 | _ <- xs]
+
