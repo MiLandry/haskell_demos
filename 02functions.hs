@@ -11,9 +11,26 @@ return6 = 6
 doubleMe x = x + x
 
 
+
+
+
+
+
 --a function call along with a type safety line, which is really only for the coders benefit.
 d :: Integer
 d = return5
 
 --calling a function that takes an argument
 e = doubleMe 4
+
+
+
+
+
+
+
+
+
+
+-- a function with multiple arguments
+doubleUs x y = x*2 + y*2  
