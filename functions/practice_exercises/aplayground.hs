@@ -35,7 +35,11 @@ fizzbuzz
 
 
 
-
+fibo n =
+  if n== 0 || n==1
+    then 1
+    else
+      fibo (n-2) + fibo (n-1)
 
 
 
@@ -53,5 +57,3 @@ helloworld = "hello, world"
 
 adder x y = x + y
 
-
-fibo n = 3

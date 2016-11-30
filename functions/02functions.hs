@@ -8,7 +8,7 @@ parameters
 
   a function def is really just an expression
 
-  nb: whats special here is the equal sign, thats what clues us in that its a function. In fact, haskell doesn't really have variables.  In fact, the only thing haskell is are expressions, which get evaluated, and thats really only functions and datastructures like lists.
+  nb: whats special here is the equal sign, thats what clues us in that its a function. In fact, haskell doesn't really have variables. Instead, it only has names, which if pointing to a literal eg x=3, then it looks like a varibale, but its just an alias, just like functions. In fact, the only thing haskell is are expressions, which get evaluated, and thats really only functions and datastructures like lists.
 -}
 
 
