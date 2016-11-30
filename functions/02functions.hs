@@ -1,8 +1,23 @@
+{-
+general form/syntax:
+
+name of func
+parameters
+= 
+  "the body"
+
+  a function def is really just an expression
+
+  nb: whats special here is the equal sign, thats what clues us in that its a function. In fact, haskell doesn't really have variables.  In fact, the only thing haskell is are expressions, which get evaluated, and thats really only functions and datastructures like lists.
+-}
+
+
 --a basic function, it takes no arguments, just returns 5
 return5 = 5
 
 
---a function with an optional , signature, good practice but doesn't actually do anything, haskell can infer such things 
+--a function with an optional signature, good practice but doesn't actually do anything, haskell can infer such things 
+-- the double colon signifies that you are dealing with a signature
 return6 :: Integer
 return6 = 6
 
@@ -25,7 +40,8 @@ e = doubleMe 4
 
 
 
-
+-- a signature that gives typesafety to arguments
+--?????
 
 
 
