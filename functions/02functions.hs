@@ -36,12 +36,16 @@ d :: Integer
 d = return5
 
 --calling a function that takes an argument
-e = doubleMe 4
+e = doubleMe 8
 
 
 
--- a signature that gives typesafety to arguments
---?????
+-- a signature that gives typesafety to arguments. note the special syntax token here is pointy arrows and how theres no difference between distinguishing parameter types and the return type. also note that types are uppercase
+
+addThree :: Int -> Int -> Int -> Int  
+addThree x y z = x + y + z  
+
+f = addThree 1 1 1
 
 
 
