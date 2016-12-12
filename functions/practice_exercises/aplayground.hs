@@ -14,17 +14,6 @@ fizzbuzz
 
 
 
-helloworld = "hello world"
-
-adder x y = x + y
-
-
-iffy x = 
-  if x < 10 
-    then  x
-    else x + x
-
-
 
 
 
@@ -43,6 +32,17 @@ iffy x =
 
 
 {-
+
+
+helloworld = "hello world"
+
+adder x y = x + y
+
+
+iffy x = 
+  if x < 10 
+    then  x
+    else x + x
 
 
 
