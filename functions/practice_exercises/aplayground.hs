@@ -1,9 +1,12 @@
 {-
 hello world
 adder
-string adder
-fibo
+
 if then else practice eg "isitbiggerorsmallerthan10"
+
+now go look at list stuff
+
+fibo
 fizzbuzz
 
 ... with signatures
@@ -11,6 +14,15 @@ fizzbuzz
 
 
 
+helloworld = "hello world"
+
+adder x y = x + y
+
+
+iffy x = 
+  if x < 10 
+    then  x
+    else x + x
 
 
 
@@ -30,8 +42,7 @@ fizzbuzz
 
 
 
-
-
+{-
 
 
 
@@ -57,3 +68,4 @@ helloworld = "hello, world"
 
 adder x y = x + y
 
+-}
