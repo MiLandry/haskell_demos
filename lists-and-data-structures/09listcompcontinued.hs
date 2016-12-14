@@ -15,3 +15,6 @@ d = boomBangs [7..13]
 
 length' xs = sum [1 | _ <- xs]
 
+-- you can also pull from multiple general sets, and do matrixy things.  The funny thing is after the pipe you just list your sets and your filter/predicates in a big blob of comma-separated expressions. The compiler can tell the difference because the sets have to have the arrow <- in them (and they have to come first)
+
+[ x*y | x <- [2,5,10], y <- [8,10,11]]

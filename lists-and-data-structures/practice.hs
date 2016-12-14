@@ -24,14 +24,31 @@ Now create a comprehension and put it inside a function
 
 
 create a list comprehension that pulls from 2 sets, just multiply each element (every permutation)
+
+TUPLES
+
+zip two lists together, what does this return?
+
+now go look at type practice
+
 -}
 
+a = "1234" !! 3
+
+b = take 10 (cycle[1,2,3])
+
+c = [x + x | x <- [1..10], x > 5]
+
+doubler xs = [x + x | x <- xs]
+
+d = doubler [2,3,4]
+
+
+e = [x * y | x <- [1,2,3], y <- [4,5,6]]
 
 
 
-
-
-
+f = zip [1,2,3][4,5,6]
 {-
 
 
