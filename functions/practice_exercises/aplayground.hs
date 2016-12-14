@@ -13,8 +13,23 @@ fizzbuzz
 -}
 
 
+hw = "hello"
+
+a = hw
+
+add x y = x + y
+
+b = add 3 3
+
+foo x = 
+  if x <10
+    then x
+    else x + x
 
 
+c = foo 4
+
+d = foo 44
 
 
 
