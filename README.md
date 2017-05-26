@@ -22,6 +22,11 @@ Once the file is loaded, it should have a variable called "d" which is supposed 
 
 `>> hello, world!`
 
+You can also invoke defined functions from the ghci if you look at the code and see the functions
+
+`doubleMe 5`
+`>> 10`
+
 ## Using REPL/ghci:
 
 In sublime, open 2 columns.
