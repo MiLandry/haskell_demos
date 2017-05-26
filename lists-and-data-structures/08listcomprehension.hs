@@ -1,7 +1,9 @@
 {-
 the basic idea of a list comprehension is that you are building a specific set of stuff from a general set of stuff
+actually, you build it by filtering, then transforming
 
-So in the case of 2,4,...,20
+So consider the use case: we want a list that is 2,4,...,20
+
 our general set is the list of numbers from one to ten, and we don't filter the set, but we do build a new specific set with a transformation
 
 so what you have to do is define what your general set is, (possibly) filter that set, and then apply some sort of transformation (or function) on each element pulled from the general set.
@@ -10,13 +12,16 @@ so what you have to do is define what your general set is, (possibly) filter tha
 
  what function or transformation are you going to do?  (called the output function)
  for haskell, thats the stuff before the pipe
+ in this case, we double 2 * x
 
  what set of (general) elements is this going to be?
 thats the stuff on the right side of the pipe.
 the thing to the right of the arrow is the general set, and the thing the arrow points to tells you how to pass it to the output funcion
  x <- [1..10] is the input function.
 
-the syntax clue that you are doing a list comprehension is a list [], a pipe | and an arrow <-, and another list for your general set
+the syntax clue that you are doing a list comprehension is a wrapping list [], and inside that list is a pipe | and an arrow <-, and another list for your general set
+
+NB: so the thing after the pipe but before the arrow will always just be the variable (the name) but you may have many of them
 
 -}
 
