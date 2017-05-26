@@ -39,6 +39,9 @@ d = return5
 e = doubleMe 8
 
 
+-- a function with multiple arguments
+doubleUs x y = x*2 + y*2  
+
 
 -- a signature that gives typesafety to arguments. note the special syntax token here is pointy arrows and how theres no difference between distinguishing parameter types and the return type. also note that types are uppercase
 
@@ -47,10 +50,3 @@ addThree x y z = x + y + z
 
 f = addThree 1 1 1
 
-
-
-
-
-
--- a function with multiple arguments
-doubleUs x y = x*2 + y*2  
