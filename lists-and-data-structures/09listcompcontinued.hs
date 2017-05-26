@@ -1,4 +1,4 @@
---for convenience, its possible to put list comprehensions into a function, and then pass other lists into that function
+--for convenience, its possible to put list comprehensions into a function, and then pass other lists into that function. IE, instead of 'hardcoding' your general set, you pass it into this function instead.
 
 boomBangs xs = [ if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x] 
 
