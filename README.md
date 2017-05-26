@@ -1,5 +1,11 @@
-# haskell_demo_helloworld
-Demonstrating the basics of haskell
+# Haskell demos
+Demonstrating the basics of haskell.
+This repo was made in order to follow along with 
+
+http://learnyouahaskell.com/
+
+in which it prescribes only having to have a text editor and GHC or GHCI (ie an interpreter)
+
 
 ## Directions:
 Fire up the Glorious Haskell Compiler Interpreter
@@ -16,7 +22,7 @@ Once the file is loaded, it should have a variable called "d" which is supposed 
 
 `>> hello, world!`
 
-## Using REPL:
+## Using REPL/ghci:
 
 In sublime, open 2 columns.
 Then open REPL
