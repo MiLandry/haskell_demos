@@ -48,3 +48,13 @@ then load and run
 If you do not have haskell (ghci) installed, then go get it.
 
 Also, I found that the only thing I was able to get going was haskell repl in sublime, it involved installing sublime REPL package and then it would work, but then it would not and I would install something like sublime-haskell plugin and then it would show up.
+
+## Compiling
+GHC can compile haskell.hs files into executable programs if they contain a main function.
+
+get into shell (not ghc)
+`ghc --make compileme`
+then execute
+`compileme`
+
+
